@@ -1,0 +1,13 @@
+#topics, #images {
+	float: left;	
+}
+#add-topics {
+	float: right;
+}
+figure {
+	padding: 10px;
+}
+.topic-button {
+	padding: 10px;
+	margin: 5px;
+}
