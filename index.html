@@ -12,12 +12,16 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
+	<!-- Container for buttons -->
 	<div id="topics"></div>
-	<div id="images"></div>
+	<!-- Form for adding topics/buttons -->
 	<form id="add-topics" onsubmit="return false">
-		<input id="topic" type="text" placeholder="Topic">
-		<input id="topic-button" type="button" value="Add Topic">
+		<input id="topic" type="text" placeholder="Topic" required>
+		<button id="topic-button" type="submit">Add Topic</button>
 	</form>
+	<!-- Container for images -->
+	<div id="images"></div>
+	
 	<script type="text/javascript" src="assets/javascript/app.js"></script>
 </body>
 </html>

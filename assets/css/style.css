@@ -1,13 +1,31 @@
+@import url(https://fonts.googleapis.com/css?family=Gorditas);
+
+body {
+	margin-right: 10px;
+	margin-left: 10px;
+}
 #topics, #images {
-	float: left;	
+	float: left;
+	margin-top: 20px;	
 }
 #add-topics {
 	float: right;
 }
 figure {
 	padding: 10px;
+	font-family: 'Gorditas';
 }
-.topic-button {
+figcaption {
+	padding: 5px;
+}
+.topic-button, #topic, #topic-button {
 	padding: 10px;
 	margin: 5px;
+	font-family: 'Gorditas';
+	font-size: 15px;
+}
+
+table, td, tr {
+	display: block;
+	float: left;
 }
