@@ -17,7 +17,7 @@ $(document).ready(function() {
 	});
 
 	for(i = 0 ; i < topics.length; i++) {
-		$("#topics").append("<button class='topic-buttonwww'>"+topics[i]+"</button>");
+		$("#topics").append("<button class='topic-button'>"+topics[i]+"</button>");
 	}
 
 	$("body").on("click","button", function() {
