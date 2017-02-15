@@ -42,10 +42,10 @@ $(document).ready(function() {
 	// Event handler for calling giphy api
 	$("body").on("click",".topic-button", function() {
 		var topic = $(this).text();
-		var queryURL = "https://crossorigin.me/http://api.giphy.com/v1/gifs/search?q="+topic+"&api_key=dc6zaTOxFJmzC&limit=10";
+		var queryURL = "http://api.giphy.com/v1/gifs/search?q="+topic+"&api_key=dc6zaTOxFJmzC&limit=10";
 
 		$.ajax({url: queryURL, method: 'GET'}).done(function(response) {
-			$("#images").html("<table><tr class='row-1'>")
+			$("#images").html("<table><tr class='row-1'>");
 			var counter = 0;
 			var rowCounter = 1;
 
